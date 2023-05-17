@@ -1,0 +1,75 @@
+
+.blog-sec {
+    position: relative;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+.blog-sec li {
+    position: relative;
+    list-style-type: none;
+}
+
+.blog-sec li a {
+    position: relative;
+    color: var(--heading-color);
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+    padding: 10px 15px 0px 20px;
+}
+
+.blog-sec li a span {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-light);
+}
+
+.blog-sec li a:before {
+    display: inline-block;
+    color: var(--primary-color);
+    font-family: 'FontAwesome';
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: var(--heading-color);
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    border: 1px solid var(--bg-grey);
+    opacity: .3;
+}
+
+.twitter-feed li a {
+    padding: 10px 15px 0px 30px;
+    margin-top: 10px;
+}
+
+ul.blog-sec li a span.fa {
+    position: static;
+    color: var(--primary-color);
+    font-size: inherit;
+    background: none;
+}
+
+.inner-sec .blog-des .card-cap a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.inner-sec .blog-des .card-title a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.blog-des .admin-post li {
+    display: flex;
+    text-decoration: none;
+}

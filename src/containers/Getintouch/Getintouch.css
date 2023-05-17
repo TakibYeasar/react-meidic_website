@@ -1,0 +1,5 @@
+
+.content-info-in .content-left p,
+.content-info-in .content-right p {
+    color: var(--font-white);
+}

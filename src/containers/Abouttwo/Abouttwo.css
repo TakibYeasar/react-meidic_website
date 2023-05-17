@@ -1,0 +1,86 @@
+
+
+.w3l-inner-page-breadcrumb {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../../assets/images/banner1.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+h2.title {
+    color: var(--heading-color);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--font-color);
+    opacity: .9;
+    letter-spacing: .5px;
+}
+
+.breadcrumbs-custom-path li a {
+    color: var(--font-color);
+    opacity: .85;
+}
+
+.breadcrumbs-custom-path li a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.breadcrumbs-custom-path li span.fa {
+    font-size: 12px;
+    vertical-align: 2px;
+    color: var(--font-color);
+}
+
+@media (max-width:992px) {
+    .w3l-inner-page-breadcrumb {
+        min-height: 200px;
+    }
+
+    h2.title {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+}
+
+
+.about-ab-sec {
+    background: var(--bg-color);
+}
+
+.bg-color-white {
+    background: var(--bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+}
+
+.bg-color-white .col-lg-4 {
+    padding: 0;
+}
+
+.w3l-content-5 {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../../assets/images/banner1.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.w3l-content-5 p {
+    color: var(--font-color);
+    opacity: 0.7;
+}
+

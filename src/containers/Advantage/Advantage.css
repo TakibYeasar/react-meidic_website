@@ -1,0 +1,19 @@
+
+.advantage-sec {
+    background-color: var(--bg-color);
+}
+
+.advantage-right-book {
+    padding: 0;
+}
+
+.advantage-right-book .icon {
+    color: var(--primary-color);
+}
+
+
+.advantage-right-book li {
+    color: var(--heading-color);
+}
+
+

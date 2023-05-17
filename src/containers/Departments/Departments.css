@@ -1,0 +1,108 @@
+
+.w3l-inner-page-breadcrumb {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgb(3 15 39 / 69%), rgb(3 15 39 / 70%)), url(../../assets/images/banner1.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+h2.title {
+    color: var(--font-color);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--font-color);
+    opacity: .9;
+    letter-spacing: .5px;
+}
+
+.breadcrumbs-custom-path li a {
+    color: var(--font-color);
+    opacity: .85;
+}
+
+.breadcrumbs-custom-path li a:hover {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.breadcrumbs-custom-path li span.fa {
+    font-size: 12px;
+    vertical-align: 2px;
+    color: var(--font-color);
+}
+
+@media (max-width:992px) {
+    .w3l-inner-page-breadcrumb {
+        min-height: 200px;
+    }
+
+    h2.title {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+}
+
+.dept-services {
+    background: var(--bg-color);
+}
+
+.dept-services .area-box {
+    padding: 10px 10px;
+    background: var(--bg-light);
+    border: 1px solid var(--bg-grey);
+    border-radius: var(--border-radius);
+}
+
+.dept-services h4 a.title-head {
+    margin-top: 20px;
+    display: block;
+    color: var(--heading-color);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.dept-services h4 a.title-head:hover {
+    color: var(--primary-color);
+}
+
+.dept-services .w3doctor-box-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 10px;
+}
+
+.w3doctor-box-bottom .doctor-phone a {
+    font-size: 18px;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+.w3doctor-box-bottom .social-icons-dr a {
+    display: inline;
+    margin-right: 8px;
+    font-size: 18px;
+    color: var(--heading-color);
+}
+
+.w3doctor-box-bottom a:hover {
+    color: var(--primary-color);
+}
+
+

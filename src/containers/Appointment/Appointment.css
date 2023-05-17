@@ -1,0 +1,82 @@
+
+
+.appointment-sec {
+    background-image: linear-gradient(to right, rgb(0 4 12 / 75%), rgb(1 11 29 / 80%)), url(../../assets/images/banner1.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top;
+    -ms-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+
+.appointment-sec p {
+    color: var(--font-white);
+    opacity: 0.8;
+}
+
+.appointment-sec .btn-style:hover {
+    border-radius: none;
+    background: transparent;
+    color: var(--font-color);
+}
+
+.appointment-sec .fields-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 20px;
+}
+
+.appointment-form {
+    background: var(--bg-color);
+    padding: 60px 40px;
+    border-radius: var(--border-radius);
+}
+
+.appointment-sec input,
+.appointment-sec textarea,
+.appointment-sec select {
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    color: var(--font-color);
+    height: 50px;
+    text-align: left;
+    -webkit-appearance: none;
+    align-items: center;
+    padding-left: 15px;
+    background-color: var(--bg-grey);
+    border: 1px solid var(--bg-border);
+    border-radius: 8px;
+}
+
+.appointment-sec select {
+    -webkit-appearance: menulist;
+}
+
+.appointment-sec textarea {
+    height: 150px;
+}
+
+.appointment-sec input:focus,
+.appointment-sec textarea:focus {
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-white);
+}
+
+@media (max-width:992px) {
+    .appointment-form {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:640px) {
+    .appointment-sec .fields-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px 10px;
+    }
+}
+

@@ -1,0 +1,140 @@
+
+.clients-sec {
+    background: var(--bg-color);
+}
+
+.clients-sec blockquote q {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.clients-sec .testi-des {
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.clients-sec a.comment-img {
+    left: 0px;
+    top: 0px;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+}
+
+.clients-sec .bottom-info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: flex-start;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.clients-sec blockquote q::before {
+    font-size: 50px;
+    color: var(--primary-color);
+    display: block;
+    font-family: initial;
+}
+
+.clients-sec.w3l-test blockquote q::before {
+    font-size: 50px;
+    color: var(--primary-color);
+    display: inline-block;
+    font-family: initial;
+    margin-right: 10px;
+}
+
+.clients-sec .test-img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: var(--bg-color);
+    border-radius: 50%;
+}
+
+.clients-sec .testimonial img {
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.clients-sec .testimonial .peopl {
+    margin: 0;
+    text-align: left;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.clients-sec.testimonial .peopl h3,
+.clients-sec .people-info h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.clients-sec .testimonial {
+    border: 1px solid var(--border-color-light);
+    padding: 40px;
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.clients-sec .testimonial:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color-light);
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(-135deg);
+    position: absolute;
+    bottom: -7px;
+    left: 9%;
+    z-index: 1001;
+}
+
+.clients-sec p.identity {
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+.owl-carousel {
+    display: flex;
+    width: 100%;
+}
+
+.owl-carousel,
+.owl-carousel .item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+
+
+.whyus-sec,
+.w3l-content-22 {
+    background: var(--bg-grey);
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.whybox-wrap-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+}
+
+.whybox-wrap h4 a {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    display: block;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+.whybox-wrap h4 a:hover {
+    color: var(--primary-color);
+    transition: 0.3s ease;
+}
+
+.whybox-wrap-grid .icon {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    color: var(--primary-color);
+    background: var(--bg-color);
+    line-height: 70px;
+    border-radius: var(--border-radius);
+    transition: 0.3s ease-in-out;
+}
+
+.whybox-wrap-grid .icon span.fa {
+    color: var(--primary-color);
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.whybox-wrap-grid:hover .icon {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    transition: 0.3s ease-in-out;
+}
+
+.whybox-wrap-grid:hover .icon span.fa {
+    color: #fff;
+    transition: 0.3s ease-in-out;
+
+}
+
+@media (max-width:768px) {
+    .w3l-content-22 {
+        background: url(../../assets/images/banner2.jpg) no-repeat bottom;
+        padding: 2em 0 2em 0;
+    }
+}
+

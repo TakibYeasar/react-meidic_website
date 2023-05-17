@@ -1,0 +1,43 @@
+
+
+.motivation-sec {
+    background: var(--bg-grey);
+}
+
+.motivation-sec .area-box {
+    padding: 0 14px;
+}
+
+.motivation-sec .area-box .icon {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+.motivation-sec .grids-feature span.fa {
+    color: var(--primary-color);
+    font-size: 50px;
+}
+
+.motivation-sec h4 a.title-head {
+    margin-top: 25px;
+    display: block;
+    color: var(--heading-color);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.motivation-sec h4 a.title-head:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width:600px) {
+    .motivation-sec h4 a.title-head {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+
